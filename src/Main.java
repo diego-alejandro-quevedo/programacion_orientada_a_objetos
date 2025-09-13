@@ -96,7 +96,7 @@ class Motocicleta extends Vehiculo {
         super(modelo, año);
     }
 
-    @Override
+    @Override // llamado de clase
     public void conducir() {
         System.out.println("La motocicleta " + getModelo() + " está acelerando por la carretera.");
     }
